@@ -1,0 +1,23 @@
+{
+  "name": "webpage-embed-maker",
+  "version": "1.0.0",
+  "description": "Embed maker(Discord &amp; Twitter) for HTML-based Webpages!",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx electron ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaryanKhClasses/webpage-embed-maker.git"
+  },
+  "keywords": [],
+  "author": "AaryanKh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaryanKhClasses/webpage-embed-maker/issues"
+  },
+  "homepage": "https://github.com/AaryanKhClasses/webpage-embed-maker#readme",
+  "dependencies": {
+    "electron": "^13.1.6"
+  }
+}

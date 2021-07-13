@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Webpage Embed Maker</title>
+</head>
+<body>
+    <header><h1>Webpage Embed Maker</h1></header>
+    <div class="form">
+        <fieldset>
+            <legend>Embed Making Form</legend>
+            <label>Title:</label>
+            <input type="text" id="input_title"><br>
+            <label>URL:</label>
+            <input type="url" id="input_url"><br>
+            <label>Image URL:</label>
+            <input type="url" id="input_image"><br>
+            <label>Type:</label>
+            <input type="text" id="input_type" list="input_types"><br>
+            <label>Description:</label>
+            <input type="text" id="input_desc"><br>
+            <button onClick="getInputValues()" type="button">Submit</button>
+        </fieldset>
+    </div>
+    <div class="preview">
+        <fieldset>
+            <legend>Preview</legend>
+        </fieldset>
+    </div>
+    <div id="result">
+        <h1>This is the result!</h1>
+        <h3>Copy and paste this inside the "head" tag of your HTML file:</h3>
+        <code lang="html">
+            <label id="result_title">Title</label><br>
+            <label id="result_url">URL</label><br>
+            <label id="result_image">Image</label><br>
+            <label id="result_type">Type</label><br>
+            <label id="result_desc">Desc</label>
+        </code>
+    </div>
+    <datalist id="input_types">
+        <option>website</option>
+        <option>article</option>
+        <option>blog</option>
+    </datalist>
+    <script src="script.js"></script>
+</body>
+</html>
