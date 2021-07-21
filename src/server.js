@@ -14,7 +14,7 @@ app.on("window-all-closed", () => { // This event will trigger when all the wind
     app.quit() // This will quit the application from the console!
 })
 
-// Creating the window itself.
+// Creating the window itself. 
 function createWindow() { // This function will create the window which we talked about on line 9.
     let mainWindow = new BrowserWindow({ // A new variable config of the "BrowserWindow" element of electron.
         width: 700, // Width of the browser window.

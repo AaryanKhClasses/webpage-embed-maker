@@ -14,7 +14,7 @@ div {
     float: left;
 }
 
-input {
+.input {
     background-color: transparent;
     border-color: transparent;
     border-bottom-color: black;
@@ -22,7 +22,7 @@ input {
     margin-top: 5px;
 }
 
-button {
+.submit {
     margin-top: 8px;
     margin-left: 100px;
     padding: 5px 10px;
@@ -31,7 +31,5 @@ button {
 
 #result {
     text-align: center;
-    width: 100%;
-    margin-top: 20px;
     display: none;
 }
